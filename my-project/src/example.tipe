@@ -1,0 +1,16 @@
+query Tipe {
+  Landing(id: "YOUR_DOCUMENT_ID") {
+    title
+    subtitle
+    section1
+    section2
+    section3
+    _meta {
+      id
+      name
+      updatedAt
+      createdAt
+      published
+    }
+  }
+}
