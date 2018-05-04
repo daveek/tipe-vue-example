@@ -19,7 +19,7 @@ Tipe works seamlessly with Vue
 ## Setup
 Find your API Key and Org Secret key on Tipe Dashboard under API Keys.
 
-![API Keys UI](https://s3.amazonaws.com/tipe-images/API-keys-info.png)
+![API Keys UI](https://cdn.tipe.io/tipe/docs/API-keys-info.png)
 
 ## Configuration
 Setup your `webpack.config.js` file.
