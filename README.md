@@ -103,7 +103,7 @@ query Tipe {
 ```
 ## Adding Tipe to your `.vue` file.
 
-Your data is ready syncronously at run time.
+Your data is ready syncronously at run time. Since our data is fetched during build-time we have it immediately and can include our `Landing` default data when our component is created.
 
 Add your `.tipe` file to your `.vue` file like so:
 
@@ -115,7 +115,7 @@ Add your `.tipe` file to your `.vue` file like so:
 import { Landing } from './example.tipe';
 
 export default {
-name: 'app',
+  name: 'app',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
